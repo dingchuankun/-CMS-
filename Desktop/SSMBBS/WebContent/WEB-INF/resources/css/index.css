@@ -1,0 +1,336 @@
+.background{
+	
+background-image: url(../img/game/B2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+   background-attachment: fixed;
+}
+.box1{
+	background-color:rgba(255,255,255,0.8);
+	 width: 1300px;
+    float: left;
+    margin-left:150px;
+    
+    
+}
+.box2{
+	background-color:#122B40;
+	margin-left:20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align:center;
+    width: 160px;
+    height: 40px;
+    float: left;
+    font-size:25px;
+    font-family:"寰蒋闆呴粦";
+    border-radius:6px;
+    color: white;
+    
+    margin-top: 10px;
+}
+.box3{
+	float: left;
+	width: 1300px;
+	height: 70px;
+	background-color:rgba(255,255,255,0.2);
+	margin-left:150px;
+    margin-top: 30px;
+    border-radius:5px 0 0;
+}
+.box4{
+	float: left;
+	width: 450px;
+	height: 120px;
+	margin-left:30px;
+    margin-top: 30px; 
+    background-color: white;
+    padding:15px;
+	
+}
+.box5{
+	float: right;
+	width: 280px;
+	height: 80px;
+	margin-left:10px;
+    font-size:25px;
+    
+}
+.box6{
+	float: right;
+	width: 1300px;
+	height: 30px;
+    font-size:25px;
+    margin-left:20px;
+    margin-top: 10px;
+    margin-right:20px;
+     
+}
+.box7{
+	float: left;
+	width: 400px;
+	height: 480px;
+    font-size:25px;
+    margin-left:20px;
+    margin-right:10px;
+    
+    padding-left:10px;
+    padding-top:10px;
+}
+.H1{
+	float: left;
+	width: 300px;
+	height: 300px;
+    font-size:40px;
+    margin:50px 50px 50px 50px;
+    border-radius:20px;
+    font-family:"寰蒋闆呴粦";
+    box-shadow:-10px 0 10px #9D9D9D;
+    padding:15px;
+    text-align:center;
+    color:darkslategrey;
+    
+}
+.H2{
+	float: left;
+	width: 200px;
+	height: 800px;
+    font-size:20px;
+    margin: 10px 10px 10px;
+    border-radius:5px;
+    font-family:"微软雅黑";
+    padding:15px;
+    text-align:center;
+    color:white;
+    background-color:#333333;
+    
+filter:alpha(opacity=100);
+    
+}
+.B1{
+	float: left;
+	width: 300px;
+	height: 800px;
+    font-size:25px;
+    margin:0 10px 10px 10px;
+    border-radius:20px;
+    font-family:"寰蒋闆呴粦";
+    padding:15px;
+    text-align:center;
+    color:darkslategrey;
+    background-color:lightsalmon;
+    opacity:0.8;
+filter:alpha(opacity=100);
+    
+}
+
+
+
+		.cont {
+			position: relative;
+			width: 100%;
+			height: 70px;
+		}
+		/*鏄剧ず鎸夐挳*/
+		
+		.shows {
+			position: absolute;
+			left: 0;
+			width: 50%;
+			font-size: 20px;
+			height: 70px;
+			text-align: center;
+			background-color: #2AC845;
+			color: #fff;
+			line-height: 70px;
+		}
+		/*闅愯棌*/
+		
+		.nones {
+			position: absolute;
+			right: 0;
+			width: 50%;
+			font-size: 20px;
+			height: 70px;
+			text-align: center;
+			background-color: #DD524D;
+			color: #fff;
+			line-height: 70px;
+		}
+		/*寮圭獥*/
+		
+		.dislog {
+			position: fixed;
+			z-index: 999;
+			width: 100%;
+			height: 100%;
+			display: none;
+			text-align: center;
+			background-color: #000;
+			opacity: 0.8;
+		}
+		/*鐘舵�*/
+		
+		.list {
+			position: relative;
+			width: 100%;
+			height: 70px;
+		}
+		
+		.dis_cont {
+			position: relative;
+			border-radius: 10px;
+			top: 25%;
+			width: 80%;
+			display: inline-block;
+			height: 160px;
+			background-color: #2AC845;
+		}
+		/*纭鍙栨秷*/
+		
+		.dis_bott {
+			position: absolute;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			border-top: 1px solid #ddd;
+			width: 100%;
+			height: 70px;
+			background-color: #f5f5f5;
+			bottom: 0px;
+		}
+		/*鍙栨秷鎸夐挳*/
+		
+		.left_name {
+			position: absolute;
+			border-bottom-left-radius: 10px;
+			text-align: center;
+			left: 0px;
+			width: 50%;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+		}
+		/*纭*/
+		
+		.right_name {
+			position: absolute;
+			text-align: center;
+			border-bottom-right-radius: 10px;
+			right: 0px;
+			width: 49%;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+		}
+		/* 鎻愮ず*/
+		
+		.cont_dis {
+			position: relative;
+			border-radius: 10px;
+			text-align: center;
+			width: 100%;
+			height: 90px;
+			font-size: 20px;
+			display: flex;
+			align-items: center;
+			color: #fff;
+			box-sizing: border-box;
+			padding: 20px 20px;
+		}
+
+
+.box8 {
+	background-color:#122B40;
+	margin-left:20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align:center;
+    width: 160px;
+    height: 40px;
+    float: right;
+    font-size:20px;
+    font-family:"微软雅黑";
+    border-radius:6px;
+    color: white;
+    
+    margin-top: 10px;
+}
+.T2{
+	float: left;
+	width: 200px;
+	height: 550px;
+	background-color:white;
+    border-top:2px solid #9D9D9D;
+    border-right:2px solid #9D9D9D;
+    border-left:2px solid #9D9D9D;
+    border-bottom:1px solid #9D9D9D;
+    padding: 25px;
+    text-align: center;
+    font-size:20px;
+    
+}
+.T3{
+	float: left;
+	width: 1100px;
+	height:500px;
+	background-color:white;
+    border-top:2px solid #9D9D9D;
+    border-right:2px solid #9D9D9D;
+    border-left:0px solid #9D9D9D;
+    border-bottom:0px solid #9D9D9D;
+    padding: 20px;
+    
+}
+.T4{
+	float: left;
+	width: 1100px;
+	height:80px;
+	background-color:white;
+    border-top:0px solid #9D9D9D;
+    border-right:2px solid #9D9D9D;
+    border-left:0px solid #9D9D9D;
+    border-bottom:2px solid #9D9D9D;
+    padding: 10px;
+    margin-left:-20px;
+    margin-top:-20px;
+    margin-bottom:10px;
+}
+.T5{
+	float: left;
+	width: 1100px;
+	height:50px;
+	background-color:white;
+    border-top:0px solid #9D9D9D;
+    border-right:2px solid #9D9D9D;
+    border-left:0px solid #9D9D9D;
+    border-bottom:2px solid #9D9D9D;
+    padding: 10px;
+    text-align: right;
+}
+.T6{
+	float: left;
+	width: 200px;
+	height: 500px;
+	background-color:white;
+    border-top:2px solid #9D9D9D;
+    border-right:2px solid #9D9D9D;
+    border-left:2px solid #9D9D9D;
+    border-bottom:1px solid #9D9D9D;
+    padding: 25px;
+    text-align: center;
+    font-size:20px;
+    
+}
+.T7{
+	float: left;
+	width: 1100px;
+	height:450px;
+	background-color:white;
+    border-top:2px solid #9D9D9D;
+    border-right:2px solid #9D9D9D;
+    border-left:0px solid #9D9D9D;
+    border-bottom:0px solid #9D9D9D;
+    padding: 20px;
+    
+}
